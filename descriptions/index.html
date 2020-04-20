@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descriptions</title>
+    <link href='../estilo.css' type="text/css" rel="stylesheet">
 </head>
+<script src="funcoes.js"></script>
 <body>
     <header>
-        <p lang="en-us"><a href="../index.html">Chapter Selection</a></p>
+       <a href="../index.html">Chapter Selection</a>
     </header>
     <section>
         <h1>Descriptions</h1>
@@ -17,21 +19,44 @@
         </p> 
         <p> 
             <h2 class="desc">Beastiary</h2>
-            <iframe id="iframe" width="550" height="450" src="beasts.html">
+            <!-- <h6>
+                <select name="bs" id="bs" class="s">
+                    <option value="(*~*)" selected>"(* ~~ *)"</option>
+                    <option id='cyclop' value="cyclop" onclick="mudaBs('beasts.html#cyclop')">Cyclop</option>
+                    <option id='mushrooms' value="mushrooms" onselect="mudaBs('beasts.html#mushrooms')">Mushroom</option>
+                </select>
+                <input type="button" name='bs' value="Go!" class="s">
+             </h6> -->
+            <iframe id="iframeb"  src="beasts.html">
             </iframe>   
         </p>  
         <p> 
             <h2 class="desc">Spirits</h2>
-            <iframe id="iframe" width="550" height="400" src="spirits.html">
+           <!--<h6>
+                <select name="ss" id="ss" class="s">
+                    <option value="earthspirit"  selected >Earth Spirits</option>
+                </select>
+                <input type="button" name='ss' value="Go!" class="s" target='iframes' onclick="buscarss()">
+            </h6>--> 
+            <iframe id="iframes"  src="spirits.html">
             </iframe>   
         </p>  
-    </section>
-    <aside>
         <p> 
             <h2 class="desc">Biomes</h2>
-            <iframe id="iframe" width="550" height="400" src="biomes.html">
+           <!-- <h6>
+                <select name="bios" id="bios" class="s">
+                    <option value="vermillion" selected href="biomes.html#">Vermillion Plains</option>
+                    
+                </select>
+                <input type="button" name='bios' value="Go!" class="s"  target="iframebio" onclick="buscarbios()">
+            </h6> -->
+            <iframe id="iframebio" src="biomes.html">
             </iframe>   
         </p> 
-    </aside>
+    </section>
+    <footer>
+        ig: <a href="https://www.instagram.com/sergio.prod/" target="blank">@sergio.prod </a>
+        <!-- <a href="../descriptions/beasts#mushrooms.html" target="">Mushrooms</a> (Howto link to a specific part of an iframe coming from another page?-->
+    </footer>
 </body>
 </html>
