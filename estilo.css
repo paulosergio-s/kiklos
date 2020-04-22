@@ -1,9 +1,11 @@
+/*Simple layout, simple idea, simple project.*/
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 footer, section, header{
-    width: 500px;
+    width: 700px;
     margin: 2px auto 2px auto;
     padding: 3%;
     border-radius: 10px;
@@ -24,5 +26,49 @@ li{
 }
 a{
     text-decoration: none;
-    color: royalblue;
 }
+iframe{
+    width: 650px;
+    height: 400px;
+}
+/* Color scheme: Each page will have a different color scheme.
+ To apply this, each page will have a class on their elements, and the classes will get colors.*/
+/*MAIN INDEX*/
+ .index{
+     background-color: #e09efa;
+ }
+
+ section.index, header.index, footer.index{
+     background-color: #cbdbfc;
+ }
+ body.index{
+     color: #3f3f74;
+ }
+
+ a.indexa{
+     color: #a751c9;
+ }
+ /*CHAPTER ONE*/
+ .one{
+   background-color:  #dd6a75;
+   color: #663931;
+ }
+
+ header.one,p.one, section.one, footer.one{
+   background-color: #f8d77a;
+ }
+ a.onea{
+     color: #9a470e;
+ }
+
+ /*BEASTIARY*/
+ .indexd{
+     background-color:#663931;
+     color: #163143;
+ }
+ section.indexd, header.indexd, footer.indexd{
+     background-color: #8bcbf8;
+ }
+ a.indexda{
+     color: #3f8053;
+ }
