@@ -28,8 +28,9 @@ a{
     text-decoration: none;
 }
 iframe{
-    width: 650px;
+    width: 600px;
     height: 400px;
+    
 }
 /* Color scheme: Each page will have a different color scheme.
  To apply this, each page will have a class on their elements, and the classes will get colors.*/
@@ -71,4 +72,26 @@ iframe{
  }
  a.indexda{
      color: #3f8053;
+ }
+ /*BEASTS*/
+ .beasts{
+     color: #163143;
+     
+ }
+ .spirits{
+     color: #163143;
+     
+ }
+ .biomes{
+     color: #163143;
+     
+ }
+ div.beasts, div.biomes, div.spirits{
+    border-style: inset;
+    border-color: #afdaf8;
+ }
+
+ .pb{
+     padding: 10px;
+     margin: 20px;
  }
