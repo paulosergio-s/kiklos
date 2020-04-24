@@ -127,4 +127,8 @@ iframe{
      position: relative;
      top: 70px;
  }
+ p#sides{
+     position: relative;
+     left: 250px;
+ }
  
