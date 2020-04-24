@@ -21,8 +21,11 @@ img{
 }
 li{
     display: inline;
-    padding: 10px;
+    padding: 10px,10px;
     border-radius: 10px;  
+    position: relative;
+    right: 20px;
+    
 }
 a{
     text-decoration: none;
