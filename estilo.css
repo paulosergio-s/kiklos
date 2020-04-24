@@ -28,8 +28,10 @@ a{
     text-decoration: none;
 }
 iframe{
-    width: 600px;
-    height: 400px;
+    width: 783px;
+    height: 550px;
+    border-style: inset;
+    
     
 }
 /* Color scheme: Each page will have a different color scheme.
@@ -66,9 +68,14 @@ iframe{
  .indexd{
      background-color:#663931;
      color: #163143;
+     border-radius: 0px;
+     
  }
- section.indexd, header.indexd, footer.indexd{
+ iframe.indexd, header.indexd, footer.indexd{
      background-color: #8bcbf8;
+     border-style: inset;
+     border-width: 3px;
+     
  }
  a.indexda{
      color: #3f8053;
@@ -95,3 +102,29 @@ iframe{
      padding: 10px;
      margin: 20px;
  }
+
+ img.out{
+     width: auto;
+     height: auto;
+     
+ }
+ 
+/*IMAGENS IRREGULARES*/
+ .smol{
+     float: left;
+ }
+
+.side{
+     width: 250px;
+     height: 250px;
+     height: auto;
+     float: left;
+ }
+ h3,h4{
+     clear: left;
+ }
+ p#pe{
+     position: relative;
+     top: 70px;
+ }
+ 
