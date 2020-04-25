@@ -55,6 +55,9 @@ iframe{
  a.indexa{
      color: #a751c9;
  }
+ a.indexa:hover{
+    color: #7d4694;
+}
  /*CHAPTER ONE*/
  .one{
    background-color:  #dd6a75;
@@ -67,7 +70,22 @@ iframe{
  a.onea{
      color: #9a470e;
  }
+ 
+ a.onea:hover{
+    color: rgb(211, 88, 88);
+}
+#oneh{
+    background-color: #dd6a75;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 13px;
+    color: rgb(48, 36, 36);
 
+}
+#oneh:hover{
+    color: rgb(121, 28, 28);
+}
  /*BEASTIARY*/
  .indexd{
      background-color:#663931;
@@ -162,34 +180,9 @@ iframe{
      float: right;
  }
 
- a:hover{
-     color: rgb(127, 144, 161);
- }
  /*header link config*/
- #oneh{
-     background-color: #dd6a75;
-     padding: 10px;
-     border-radius: 5px;
-     position: relative;
-     bottom: 13px;
-     color: black;
  
- }
- #oneh:hover{
-     color: rgb(66, 31, 31);
- }
- #inh{
-    
-        background-color: #e09efa;
-        padding: 10px;
-        border-radius: 5px;
-        position: relative;
-        bottom: 13px;
-    }
-    #inh:hover{
-        
-        color: #f5dcff;
-    }
+ 
    
 
 
