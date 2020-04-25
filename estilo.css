@@ -21,10 +21,11 @@ img{
 }
 li{
     display: inline;
-    padding: 10px,10px;
+    padding: 10px 10px;
     border-radius: 10px;  
     position: relative;
     right: 20px;
+    margin: 20px;
     
 }
 a{
@@ -76,13 +77,29 @@ iframe{
  }
  iframe.indexd, header.indexd, footer.indexd{
      background-color: #8bcbf8;
-     border-style: inset;
+     border-style: outset;
      border-width: 3px;
      
  }
  a.indexda{
      color: #3f8053;
+
  }
+ a.indexda:hover{
+     color:#663931 ;
+ }
+
+ #inbh{
+    background-color: #8bcbf8;
+    border-color: #e2f3ff;
+    padding: 10px;
+    border-style: outset;
+    position: relative;
+    bottom: 13px;
+}
+#inbh:hover{
+    color:#663931 ;
+}
  /*BEASTS*/
  .beasts{
      color: #163143;
@@ -97,7 +114,7 @@ iframe{
      
  }
  div.beasts, div.biomes, div.spirits{
-    border-style: inset;
+    border-style: outset;
     border-color: #afdaf8;
  }
 
@@ -134,4 +151,52 @@ iframe{
      position: relative;
      left: 250px;
  }
+/*footer configs*/
+ .flot, .block{
+   display: block;
+   float: left;
+   position: relative;
+   bottom: 45px;
+ }
+ .block{
+     float: right;
+ }
+
+ a:hover{
+     color: rgb(127, 144, 161);
+ }
+ /*header link config*/
+ #oneh{
+     background-color: #dd6a75;
+     padding: 10px;
+     border-radius: 5px;
+     position: relative;
+     bottom: 13px;
+     color: black;
  
+ }
+ #oneh:hover{
+     color: rgb(66, 31, 31);
+ }
+ #inh{
+    
+        background-color: #e09efa;
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 13px;
+    }
+    #inh:hover{
+        
+        color: #f5dcff;
+    }
+   
+
+
+
+#center{
+    text-align: center;
+    text-indent: 0px;
+    margin: 0px;
+    padding: 0px;
+}
