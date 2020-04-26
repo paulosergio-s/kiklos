@@ -1,195 +1,49 @@
-/*Simple layout, simple idea, simple project.*/
+/**/
 body{
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e09efa;
 }
 footer, section, header{
-    width: 700px;
-    margin: 2px auto 2px auto;
-    padding: 3%;
     border-radius: 10px;
+    background-color: #cbdbfc;
+}
+h1{
+   
+    color: #6a6ab8;
+    font-size: 40pt;
+    text-shadow: 2px 2px 4px #3f3f74;
 }
 p{
     text-align: justify;
     text-indent: 10%;
 }
+/*For the opener images!*/
 img{
-    width: 500px;
-    height: 300px;
-    border-style: double;
+    border-radius: 3%;
 }
+/*for the iframe images*/
+
 li{
     display: inline;
-    padding: 10px 10px;
-    border-radius: 10px;  
-    position: relative;
-    right: 20px;
-    margin: 20px;
-    
 }
 a{
     text-decoration: none;
 }
 iframe{
-    width: 783px;
-    height: 550px;
     border-style: inset;
-    
-    
+    width: 99%;
+    height: 30em;
 }
 /* Color scheme: Each page will have a different color scheme.
  To apply this, each page will have a class on their elements, and the classes will get colors.*/
-/*MAIN INDEX*/
- .index{
-     background-color: #e09efa;
- }
 
- section.index, header.index, footer.index{
-     background-color: #cbdbfc;
- }
- body.index{
-     color: #3f3f74;
- }
-
- a.indexa{
-     color: #a751c9;
- }
- a.indexa:hover{
-    color: #7d4694;
-}
- /*CHAPTER ONE*/
- .one{
-   background-color:  #dd6a75;
-   color: #663931;
- }
-
- header.one,p.one, section.one, footer.one{
-   background-color: #f8d77a;
- }
- a.onea{
-     color: #9a470e;
- }
- 
- a.onea:hover{
-    color: rgb(211, 88, 88);
-}
-#oneh{
-    background-color: #dd6a75;
-    padding: 10px;
-    border-radius: 5px;
-    position: relative;
-    bottom: 13px;
-    color: rgb(48, 36, 36);
-
-}
-#oneh:hover{
-    color: rgb(121, 28, 28);
-}
- /*BEASTIARY*/
- .indexd{
-     background-color:#663931;
-     color: #163143;
-     border-radius: 0px;
-     
- }
- iframe.indexd, header.indexd, footer.indexd{
-     background-color: #8bcbf8;
-     border-style: outset;
-     border-width: 3px;
-     
- }
- a.indexda{
-     color: #3f8053;
-
- }
- a.indexda:hover{
-     color:#663931 ;
- }
-
- #inbh{
-    background-color: #8bcbf8;
-    border-color: #e2f3ff;
-    padding: 10px;
-    border-style: outset;
-    position: relative;
-    bottom: 13px;
-}
-#inbh:hover{
-    color:#663931 ;
-}
- /*BEASTS*/
- .beasts{
-     color: #163143;
-     
- }
- .spirits{
-     color: #163143;
-     
- }
- .biomes{
-     color: #163143;
-     
- }
- div.beasts, div.biomes, div.spirits{
-    border-style: outset;
-    border-color: #afdaf8;
- }
-
- .pb{
-     padding: 10px;
-     margin: 20px;
- }
-
- img.out{
-     width: auto;
-     height: auto;
-     
- }
- 
-/*IMAGENS IRREGULARES*/
- .smol{
-     float: left;
- }
-
-.side{
-     width: 250px;
-     height: 250px;
-     height: auto;
-     float: left;
- }
- h3,h4{
-     clear: left;
- }
- p#pe{
-     position: relative;
-     top: 70px;
- }
- p#sides{
-     position: relative;
-     left: 250px;
- }
 /*footer configs*/
  .flot, .block{
    display: block;
-   float: left;
-   position: relative;
-   bottom: 45px;
  }
- .block{
-     float: right;
- }
-
- /*header link config*/
- 
- 
-   
-
-
-
 #center{
-    text-align: center;
-    text-indent: 0px;
-    margin: 0px;
-    padding: 0px;
+ text-indent: 0px;
 }
