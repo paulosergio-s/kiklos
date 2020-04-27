@@ -99,6 +99,28 @@ iframe{
 #oneh:hover{
     color: rgb(121, 28, 28);
 }
+/*CHAPTER 2*/
+.two{
+    background-color: rgb(214, 54, 54);
+    color: rgb(121, 28, 28);
+}
+header.two,p.two, section.two, footer.two{
+    background-color: #ffc2c2;
+}
+#twoh{
+    background-color: #ffc2c2;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+a.twoa{
+    color: rgb(238, 64, 107);
+}
+a.twoa:hover{
+    color: rgb(238, 171, 171);
+}
  /*BEASTIARY*/
  .indexd{
      background-color:#663931;
